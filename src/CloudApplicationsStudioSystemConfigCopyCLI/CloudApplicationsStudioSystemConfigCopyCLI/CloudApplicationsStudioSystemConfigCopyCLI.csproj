@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Tobias Kuhn (@Rugosh)</Authors>
+    <Company />
+    <Product />
+    <Description>Small Programm to move the cloud studio config between versions</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CliFx" Version="1.6.0" />
+    <PackageReference Include="Microsoft.Win32.Registry" Version="5.0.0" />
+    <PackageReference Include="NLog" Version="4.7.7" />
+  </ItemGroup>
+
+</Project>

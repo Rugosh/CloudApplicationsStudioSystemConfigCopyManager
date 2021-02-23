@@ -1,0 +1,15 @@
+{
+  "profiles": {
+    "NoParams": {
+      "commandName": "Project"
+    },
+    "AutoChoose": {
+      "commandName": "Project",
+      "commandLineArgs": "-a"
+    },
+    "WithSourceAndTarget": {
+      "commandName": "Project",
+      "commandLineArgs": "-s 2011 -t 2102"
+    }
+  }
+}
