@@ -10,6 +10,10 @@
     "WithSourceAndTarget": {
       "commandName": "Project",
       "commandLineArgs": "-s 2011 -t 2102"
+    },
+    "Help": {
+      "commandName": "Project",
+      "commandLineArgs": "-h"
     }
   }
 }

@@ -10,3 +10,16 @@ Computer\HKEY_CURRENT_USER\SOFTWARE\SAP\SAPCloudApplicationsStudio\X\DialogPage\
 
 Target Path:
 Computer\HKEY_CURRENT_USER\SOFTWARE\SAP\SAPCloudApplicationsStudio\YYY\DialogPage\SAP.Copernicus.CopernicusOptionPage
+
+## Requirements 
+* .net Core Framework 3.1 or higher (https://dotnet.microsoft.com/download/dotnet/3.1)
+
+## Usage
+dotnet CloudApplicationsStudioSystemConfigCopyCLI.dll [options]
+
+Options
+  -s|--source       Source Version of the SAP Cloud Application Studio
+  -t|--target       Target Version of the SAP Cloud Application Studio
+  -a|--auto         Automatic choose the versions Default: "False".
+  -h|--help         Shows help text.
+  --version         Shows version information.
