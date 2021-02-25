@@ -15,6 +15,7 @@ Computer\HKEY_CURRENT_USER\SOFTWARE\SAP\SAPCloudApplicationsStudio\YYY\DialogPag
 * .net Core Framework 3.1 or higher (https://dotnet.microsoft.com/download/dotnet/3.1)
 
 ## Usage
+~~~shell
 dotnet CloudApplicationsStudioSystemConfigCopyCLI.dll [options]
 
 Options
@@ -23,3 +24,4 @@ Options
   -a|--auto         Automatic choose the versions Default: "False".
   -h|--help         Shows help text.
   --version         Shows version information.
+~~~
